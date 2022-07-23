@@ -46,9 +46,9 @@ CREATE TABLE titles (
 	to_date DATE NOT NULL,
 	FOREIGN KEY (emp_no) REFERENCES employees (emp_no),
   	PRIMARY KEY (emp_no,title,from_date));
-
-DROP TABLE retirement_titles CASCADE;	
+	
 SELECT * FROM titles
+
 -- Deliverable 1 Number of Retiring Employess by Title
 SELECT e.emp_no
 	,e.first_name
@@ -84,7 +84,6 @@ FROM unique_titles AS ut
 GROUP BY title
 ORDER BY COUNT (title) DESC;
 
-DROP TABLE retiring_titles CASCADE;	
 SELECT * FROM retiring_titles
 
 -- DELIVERABLE 2: The Employees Eligible for the Mentorship Program
