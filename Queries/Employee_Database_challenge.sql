@@ -105,3 +105,39 @@ AND (birth_date BETWEEN '1965-01-01' AND '1965-12-31')
 ORDER BY e.emp_no;
 
 SELECT * FROM mentorship_eligibility;
+
+-- DELIVERABLE 3: Additional Queries
+-- Joining dept name with emp no
+SELECT DISTINCT ON (rt.emp_no) 
+	rt.emp_no,
+	rt.first_name,
+	rt.last_name,
+	rt.title,
+	d.dept_name
+INTO unique_titles_department
+FROM retirement_titles as rt
+INNER JOIN dept_emp as de
+ON (rt.emp_no = de.emp_no)
+INNER JOIN departments as d
+ON (d.dept_no = de.dept_no)
+ORDER BY rt.emp_no, rt.to_date DESC;
+
+SELECT * FROM unique_titles_department;
+
+-- How many employees are retiring per dept
+SELECT COUNT (utd.emp_no), utd.dept_name
+INTO retiring_dept
+FROM unique_titles_department AS utd
+GROUP BY dept_name
+ORDER BY COUNT (dept_name) DESC;
+
+SELECT * FROM retiring_dept;
+
+-- How many mentors are availble per title
+SELECT COUNT (me.emp_no), me.title
+INTO mentor_count
+FROM mentorship_eligibility AS me
+GROUP BY title
+ORDER BY COUNT (title) DESC;
+
+SELECT * FROM mentor_count;
