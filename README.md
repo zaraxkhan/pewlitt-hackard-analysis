@@ -23,13 +23,13 @@ Because the first analysis had many repeats, I re-did the query in order to shar
 
 ![retiring_titles](https://user-images.githubusercontent.com/105755095/180590803-74040ce1-0401-4ab2-ac2e-52f9ebbebd40.png)
 
-This quick analysis gave a quick overview of exactly how many new hires Pewlitt Hackard will need to fill based on the job titles. From a quick glance, we can see that they will need to fill the role of Senior Engineer with over 25,000 new employees. With some quick calculations, we determined that this company will have about 72,458 roles to fill very shortly. 
+This analysis gave a quick overview of exactly how many new hires Pewlitt Hackard will need to fill based on the job titles. From a glance, we can see that they will need to fill the role of Senior Engineer with over 25,000 new employees. With some quick calculations, we determined that this company will have about 72,458 roles to fill very shortly. 
 
 ### Figure 4: Mentorship Eligibility
 
 ![mentorship_eligibility](https://user-images.githubusercontent.com/105755095/180590904-337f5a80-2372-4a55-ab81-69dd37fa05ff.png)
 
-The last analysis for this challenge shared the titles of the employees who are at retiring age but have not left the company or put in their retirement notice. This employee database shares all the employees who are eligible to be a part of the mentorship program that will help ease the transition for the employees that they will be hiring in the near future. 
+The last analysis for this challenge shared the titles of the employees who are at retiring age but have not left the company or put in their retirement notice. This employee database shares all the employees who are eligible to be a part of the mentorship program that will help ease the transition for the employees that they will be hiring in the near future. There are about 1,548 eligible employees for this mentorship program. 
 
 
 ## Summary
