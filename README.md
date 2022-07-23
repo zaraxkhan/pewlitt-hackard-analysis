@@ -8,10 +8,16 @@ With the Use of SQL and PGAdmin 4, I will be aiding Bobby and his company to hel
 Below are the results from the analysis. 
 
 ### Figure 1: Retirement Titles
+
 ![retirement_titles](https://user-images.githubusercontent.com/105755095/180590625-b1b78f1e-5623-4b32-b5df-81b9bd34c0ea.png)
 
 The first analysis I ran shared which employees, along with their title and start dates, were eligible to retire within the next few years. I ran this analysis by filtering the birth dates between 1/1/1952 and 12/31/1965 as this age group would be retiring in a few years. Figure 1, above, shows this data. However, many employees are duplicated within this analysis as they have moved positions or departments and have multiple titles throughout the company. Because of this, employee names are repeated and does not give the exact number of actual employees leaving. 
--
+
+### Figure 2: Unique Titles
+
+![unique_titles](https://user-images.githubusercontent.com/105755095/180590679-ba5ee54a-8435-45da-8fd9-d43ae7671859.png)
+
+Because the first analysis had many repeats, I re-did the query in order to share employees without their multiple titles. This cut the rows in almost half, as the results went from 133,776 rows in the retirement titles to 72,458 rows with these unique titles. From this analysis, we were able to figure out the exact number of employees that will be retiring shortly with their title. 
 -
 -
 
