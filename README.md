@@ -33,5 +33,8 @@ The last analysis for this challenge shared the titles of the employees who are 
 
 
 ## Summary
+
 ### How many roles will need to be filled as the "silver tsunami" begins to make an impact?
+new analysis 
 ### Are there enough qualified, retirement-ready employees in the departments to mentor the next generation of Pewlett Hackard employees?
+With the mentorship eligibility analysis we had done, it came out with around 1,548 employees who are not yet retired and would be able to stay and help out with training the new employees. However, this is not enough. As we saw in the previous analysis titled 'Retiring Titles', we counted around 75,428 staff will be retiring soon. There are way too many vacancies that will soon be open and not enough eligible employees to help mentor them all. With a quick calculation (75,428/1,548) each mentor would have to have around 46 employees to train in order to fill the job openings, which is impossible. Pewlitt Hackard will have to come up with an additional plan in order to have a smooth transition of training the new wave of employees soon. 
