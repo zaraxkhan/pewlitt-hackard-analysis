@@ -10,7 +10,6 @@ Below are the results from the analysis.
 ### Figure 1: Retirement Titles
 ![retirement_titles](https://user-images.githubusercontent.com/105755095/180590625-b1b78f1e-5623-4b32-b5df-81b9bd34c0ea.png)
 
-
 The first analysis I ran shared which employees, along with their title and start dates, were eligible to retire within the next few years. I ran this analysis by filtering the birth dates between 1/1/1952 and 12/31/1965 as this age group would be retiring in a few years. Figure 1, above, shows this data. However, many employees are duplicated within this analysis as they have moved positions or departments and have multiple titles throughout the company. Because of this, employee names are repeated and does not give the exact number of actual employees leaving. 
 -
 -
